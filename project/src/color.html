@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style media="screen">
+      body{
+
+      }
+      header{
+        height:100px;
+        width:100%;
+        line-height: 100px;
+      }
+      header a{
+        text-decoration: none;
+        color:#000;
+      }
+      header a:hover{
+        color:#fff;
+      }
+      .home{
+        height:100px;
+        width:200px;
+        text-align: center;
+        line-height: 100px;
+        float: left;
+        background: green;
+        color:#fff;
+        transition: 0.6s;
+      }
+      .home-left{
+        width:100px;
+        transition: 0.6s;
+      }
+      .header-left-button{
+        height:100px;
+        line-height:100px;
+        text-align: center;
+        color:#fff;
+        width:100px;
+        background: #08a818;
+        float: left;
+      }
+      .header-left-button:hover{
+        background: green;
+        transition: 0.6s;
+      }
+      .header-right{
+        height:100px;
+        width:600px;
+        float: right;
+      }
+      .header-right-button{
+        height:100px;
+        width:100px;
+        text-align: center;
+        float: left;
+      }
+      .header-right-button:hover{
+        background: green;
+        transition: 0.6s;
+      }
+      footer ul{
+        padding: 0;
+        margin: 0;
+      }
+      footer ul li{
+        list-style: none;
+        width:20vw;
+        height:20vw;
+        background: #EC644B;
+        text-align: center;
+        padding-top: 10vh;
+        float: left;
+      }
+      li:hover{
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+        transform: translate(2px,2px);
+        transition: 0.3s;
+      }
+      .li-2{
+        background: #D24D57;
+      }
+      .li-3{
+        background: #F22613;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <div class="header-left">
+        <a href="#">
+          <div class="home">王安安 what's color</div>
+        </a>
+        <div class="header-left-button">
+          <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <a href="#">
+          <div class="header-right-button">
+            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="header-right-button">
+            <span class="gglyphicon glyphicon-cloud" aria-hidden="true"></span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="header-right-button">
+            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="header-right-button">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="header-right-button">
+            <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="header-right-button">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <footer>
+      <ul>
+        <li>
+          <h4>SOFT RED</h4>
+          <h4>EC644B</h4>
+          <h4>236,100,75</h4>
+        </li>
+        <li class="li-2">
+          <h4>CHESTNUT</h4>
+          <h4>D24D57</h4>
+          <h4>210, 77, 87</h4>
+        </li>
+        <li class="li-3">
+          <h4>POMEGRANATE</h4>
+          <h4>F22613</h4>
+          <h4>242, 38, 19</h4>
+        </li>
+        <li class="li-4">
+          <h4>THUNDERBIRD</h4>
+          <h4>D91E18</h4>
+          <h4>217, 30, 24</h4>
+        </li>
+        <li class="li-5">
+          <h4>OLD BRICK</h4>
+          <h4>96281B</h4>
+          <h4>150, 40, 27</h4>
+        </li>
+        <li class="li-6">
+          <h4>FLAMINGO</h4>
+          <h4>96281B</h4>
+          <h4>150, 40, 27</h4>
+        </li>
+      </ul>
+    </footer>
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./script/jquery-3.2.0.min.js"></script>
+    <script src="./script/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.header-left-button').click(an);
+      function an() {
+        if($('.home').hasClass('home-left')){
+          $('.home').removeClass('home-left');
+        }else {
+          $('.home').addClass('home-left');
+        }
+      }
+
+    </script>
+  </body>
+</html>

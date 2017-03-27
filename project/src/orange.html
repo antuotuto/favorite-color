@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style media="screen">
+      body{
+
+      }
+      header{
+        height:100px;
+        width:100%;
+        line-height: 100px;
+      }
+      header a{
+        text-decoration: none;
+        color:#000;
+      }
+      header .home:hover{
+        background: #D35400;
+        color:#fff;
+      }
+      .home{
+        height:100px;
+        width:200px;
+        text-align: center;
+        line-height: 100px;
+        float: left;
+        transition: 0.6s;
+      }
+      .home-left{
+        width:100px;
+        transition: 0.6s;
+      }
+      .header-left-button{
+        height:100px;
+        line-height:100px;
+        text-align: center;
+        width:100px;
+        float: left;
+      }
+      .header-left-button:hover{
+        background: #D35400;
+        transition: 0.6s;
+        color:#fff;
+      }
+      .header-right{
+        height:100px;
+        width:750px;
+        float: right;
+      }
+      .header-right-button{
+        height:100px;
+        width:75px;
+        text-align: center;
+        float: left;
+      }
+      .header-right-button:hover{
+        background: #D35400;
+        transition: 0.6s;
+        color:#fff;
+      }
+      footer ul{
+        padding: 0;
+        margin: 0;
+      }
+      footer ul li{
+        list-style: none;
+        width:20vw;
+        height:20vw;
+        text-align: center;
+        padding-top: 10vh;
+        float: left;
+      }
+      li:hover{
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+        transform: translate(2px,2px);
+        transition: 0.3s;
+      }
+      .li-1{
+        background: #E9D460;
+      }
+      .li-2{
+        background: #FDE3A7;
+      }
+      .li-3{
+        background: #F89406;
+      }
+      .li-4{
+        background: #EB9532;
+      }
+      .li-5{
+        background: #E87E04;
+      }
+      .li-6{
+        background: #F4B350;
+      }
+      .li-7{
+        background: #F2784B;
+      }
+      .li-8{
+        background: #EB974E;
+      }
+      .li-9{
+        background: #F5AB35;
+      }
+      .li-10{
+        background: #D35400;
+      }
+      .li-11{
+        background: #F39C12;
+      }
+      .li-12{
+        background: #F9690E;
+      }
+      .li-13{
+        background: #F9BF3B;
+      }
+      .li-14{
+        background: #F27935;
+      }
+      .li-15{
+        background: #E67E22;
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <div class="header-left">
+        <a href="#">
+          <div class="home">王安安 what's color</div>
+        </a>
+        <div class="header-left-button">
+          <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <a href="./all.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">ALL</span>
+          </div>
+        </a>
+        <a href="./red.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">RED</span>
+          </div>
+        </a>
+        <a href="./pink.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">PINK</span>
+          </div>
+        </a>
+        <a href="./purple.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">PURPLE</span>
+          </div>
+        </a>
+        <a href="./blue.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">BLUE</span>
+          </div>
+        </a>
+        <a href="./green.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">GREEN</span>
+          </div>
+        </a>
+        <a href="./yellow.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">YELLOW</span>
+          </div>
+        </a>
+        <a href="./orange.html">
+          <div class="header-right-button" style="background:#D35400;color:#fff;">
+            <span class="" aria-hidden="true">ORANGE</span>
+          </div>
+        </a>
+        <a href="./gray.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">GRAY</span>
+          </div>
+        </a>
+        <a href="./new.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">LOVE</span>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <footer>
+      <ul>
+        <li class="li-1">
+          <h4>CONFETTI</h4>
+          <h4>E9D460</h4>
+          <h4>233,212,96</h4>
+        </li>
+        <li class="li-2">
+          <h4>CAPE HONEY</h4>
+          <h4>FDE3A7</h4>
+          <h4>253, 227, 167</h4>
+        </li>
+        <li class="li-3">
+          <h4>CALIFORNIA</h4>
+          <h4>F89406</h4>
+          <h4>248, 148, 6</h4>
+        </li>
+        <li class="li-4">
+          <h4>FIRE BUSH</h4>
+          <h4>EB9532</h4>
+          <h4>235, 149, 50</h4>
+        </li>
+        <li class="li-5">
+          <h4>TAHITI GOLD</h4>
+          <h4>E87E04</h4>
+          <h4>232, 126, 4</h4>
+        </li>
+        <li class="li-6">
+          <h4>CASABLANCA</h4>
+          <h4>F4B350</h4>
+          <h4>244, 179, 80</h4>
+        </li>
+        <li class="li-7">
+          <h4>CRUSTA</h4>
+          <h4>F2784B</h4>
+          <h4>242, 120, 75</h4>
+        </li>
+        <li class="li-8">
+          <h4>SEA BUCKTHORN</h4>
+          <h4>EB974E</h4>
+          <h4>235, 151, 78</h4>
+        </li>
+        <li class="li-9">
+          <h4>LIGHTNING YELLOW</h4>
+          <h4>F5AB35</h4>
+          <h4>245, 171, 53</h4>
+        </li>
+        <li class="li-10">
+          <h4>BURNT ORANGE</h4>
+          <h4>D35400</h4>
+          <h4>211, 84, 0</h4>
+        </li>
+        <li class="li-11">
+          <h4>BUTTERCUP</h4>
+          <h4>F39C12</h4>
+          <h4>243, 156, 18</h4>
+        </li>
+        <li class="li-12">
+          <h4>ECSTASY</h4>
+          <h4>F9690E</h4>
+          <h4>249, 105, 14</h4>
+        </li>
+        <li class="li-13">
+          <h4>SANDSTORM</h4>
+          <h4>F9BF3B</h4>
+          <h4>249, 191, 59</h4>
+        </li>
+        <li class="li-14">
+          <h4>JAFFA</h4>
+          <h4>F27935</h4>
+          <h4>242, 121, 53</h4>
+        </li>
+        <li class="li-15">
+          <h4>ZEST</h4>
+          <h4>E67E22</h4>
+          <h4>230, 126, 34</h4>
+        </li>
+      </ul>
+    </footer>
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./script/jquery-3.2.0.min.js"></script>
+    <script src="./script/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.header-left-button').click(an);
+      function an() {
+        if($('.home').hasClass('home-left')){
+          $('.home').removeClass('home-left');
+        }else {
+          $('.home').addClass('home-left');
+        }
+      }
+
+    </script>
+  </body>
+</html>
