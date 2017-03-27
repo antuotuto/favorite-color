@@ -1,1 +1,1 @@
-# favorite color
+# color
