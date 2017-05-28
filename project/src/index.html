@@ -18,24 +18,186 @@
     <![endif]-->
     <style media="screen">
       body{
-        background: #DB0A5B;
+        background: #eee;
+      }
+      header{
+        height:100px;
+        width:100%;
+        line-height: 100px;
+        box-shadow: 0 1px 4px rgba(27,55,75,0.08);
+        position: fixed;
+        top:0;
+        left:0;
+        background: #fff;
+      }
+      header a{
+        text-decoration: none;
+        color:#000;
+      }
+      header .home:hover{
+        background: #000;
         color:#fff;
       }
+      .home{
+        height:100px;
+        width:200px;
+        text-align: center;
+        line-height: 100px;
+        float: left;
+        transition: 0.6s;
+      }
+      .home-left{
+        width:100px;
+        transition: 0.6s;
+      }
+      .header-left-button{
+        height:100px;
+        line-height:100px;
+        text-align: center;
+        width:100px;
+        float: left;
+      }
+      .header-left-button:hover{
+        background: #000;
+        transition: 0.6s;
+        color:#fff;
+      }
+      .header-right{
+        height:100px;
+        width:750px;
+        float: right;
+      }
+      .header-right-button{
+        height:100px;
+        width:75px;
+        text-align: center;
+        float: left;
+      }
+      .header-right-button:hover{
+        background: #000;
+        transition: 0.6s;
+        color:#fff;
+      }
+      footer{
+        padding-top: 200px;
+        width:1200px;
+        margin: 0 auto;
+      }
+      .paper-1{
+        float: left;
+        height:300px;
+        width:250px;
+        padding: 30px 25px 30px 25px;
+        background: #fff;
+      }
+      .paper-1 img{
+        width:180px;
+      }
+      .paper-2{
+        margin-left: 50px;
+        float: left;
+        height:600px;
+        width:900px;
+        padding: 30px 0 30px 50px;
+        background: #fff;
+      }
+
 
 
     </style>
   </head>
   <body>
-    <h1>你好，世界！</h1>
 
-    <p>我真的好喜欢你的</p>
+    <header>
+      <div class="header-left">
+        <a href="#">
+          <div class="home">王安安眼里的色彩</div>
+        </a>
+        <div class="header-left-button">
+          <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <a href="./all.html">
+          <div class="header-right-button" style="background:#000; color:#fff;">
+            <span class="" aria-hidden="true">ALL</span>
+          </div>
+        </a>
+        <a href="./red.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">RED</span>
+          </div>
+        </a>
+        <a href="./pink.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">PINK</span>
+          </div>
+        </a>
+        <a href="./purple.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">PURPLE</span>
+          </div>
+        </a>
+        <a href="./blue.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">BLUE</span>
+          </div>
+        </a>
+        <a href="./green.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">GREEN</span>
+          </div>
+        </a>
+        <a href="./yellow.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">YELLOW</span>
+          </div>
+        </a>
+        <a href="./orange.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">ORANGE</span>
+          </div>
+        </a>
+        <a href="./gray.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">GRAY</span>
+          </div>
+        </a>
+        <a href="./new.html">
+          <div class="header-right-button">
+            <span class="" aria-hidden="true">LOVE</span>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <footer>
+      <div class="paper-1">
+        <img src="./images/an.png" alt="">
+      </div>
+      <div class="paper-2">
+        <h3>我所认为的色彩</h3>
+        <p>在电子显示屏上显示的文字和我们在纸上手写的文字是有很大差别的</p>
+        <p>所以我会用显示屏文字的审美去看待这些创作</p>
+        <p>这只是个开始</p>
+        <p>接下来将会有更多精彩的文字内容呈现在这些页面上</p>
+        <p>希望大家喜欢我的文字</p>
+        <p>并且希望接下来我会带给大家更多</p>
+        <p>敬请关注：王安安</p>
+      </div>
+    </footer>
+
+
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./script/jquery-3.2.0.min.js"></script>
     <script src="./script/bootstrap.min.js"></script>
     <script type="text/javascript">
-
 
     </script>
   </body>
